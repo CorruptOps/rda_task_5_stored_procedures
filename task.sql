@@ -1,4 +1,10 @@
+DROP DATABASE ShopDB;
+
+CREATE DATABASE ShopDB;
 USE ShopDB;
+
+-- Тут мають бути CREATE TABLE / INSERT,
+-- якщо вони не виконуються окремим скриптом
 
 DELIMITER //
 
