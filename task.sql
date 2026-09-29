@@ -1,10 +1,5 @@
-DROP DATABASE ShopDB;
-
-CREATE DATABASE ShopDB;
+DROP DATABASE IF EXISTS ShopDB;
 USE ShopDB;
-
--- Тут мають бути CREATE TABLE / INSERT,
--- якщо вони не виконуються окремим скриптом
 
 DELIMITER //
 
